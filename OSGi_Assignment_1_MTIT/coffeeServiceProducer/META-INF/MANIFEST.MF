@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CafeServiceProducer
+Bundle-SymbolicName: coffeeServiceProducer
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.osgi.coffeeserviceproducer
+Bundle-Activator: com.osgi.coffeeserviceproducer.ServiceActivator
+Bundle-Vendor: OSGI
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: com.osgi.cafeServiceProducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
